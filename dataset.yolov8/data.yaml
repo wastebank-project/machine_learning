@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['BotolKaca', 'BotolPlastik', 'Galon', 'GelasPlastik', 'Kaleng', 'KantongPlastik', 'KantongSemen', 'Kardus', 'KemasanPlastik', 'KertasBekas', 'Koran', 'PecahanKaca', 'ToplesKaca', 'TutupGalon']
+
+roboflow:
+  workspace: project-capstone-s8mgn
+  project: project-capstone-m63gl
+  version: 4
+  license: Private
+  url: https://universe.roboflow.com/project-capstone-s8mgn/project-capstone-m63gl/dataset/4
